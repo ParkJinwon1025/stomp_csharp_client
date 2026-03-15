@@ -9,9 +9,11 @@ obj/
 .vs/
 
 # .NET
-*.dll
 *.exe
 *.pdb
+
+# DLL (ActUtlTypeLib.dll은 제외하지 않음)
+# *.dll 전체 제외 대신 bin/obj 안의 것만 제외 (위에서 처리됨)
 
 # NuGet 패키지 (복원 가능하므로 제외)
 *.nupkg
